@@ -9,8 +9,8 @@ function getCursorPosition(canvas, event) {
 }
 
 setTimeout(() => {
-    const canvas = document.querySelector('canvas')
+    const canvas = document.querySelector('canvas:first-child')
     canvas.addEventListener('click', function (e) {
         getCursorPosition(canvas, e)
     })
-}, 3e3)
+}, 1e3)
